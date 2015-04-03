@@ -1,0 +1,20 @@
+##IP Addresses known to bruteforce ssh
+iptables -A INPUT -s 61.132.128.0/17 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 183.136.216.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 182.96.0.0/12 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 115.239.248.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 218.87.0.0/16 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 176.96.224.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 115.231.216.0/21 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 115.239.230.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 218.87.0.0/16 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 27.254.67.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 218.64.0.0/16 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 218.65.0.0/17 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 43.255.191.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 115.239.230.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 1.24.0.0/13 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 157.7.112.0/22 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 103.41.124.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 115.230.0.0/16 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 61.143.236.192/27 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
