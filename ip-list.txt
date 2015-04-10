@@ -43,3 +43,4 @@ iptables -A INPUT -s 88.132.32.0/19 -p tcp -m tcp --dport 22 -j REJECT --reject-
 iptables -A INPUT -s 175.0.0.0/12 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
 iptables -A INPUT -s 91.194.84.0/23 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
 iptables -A INPUT -s 114.80.0.0/12 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 199.117.68.0/22 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
