@@ -47,3 +47,10 @@ iptables -A INPUT -s 199.117.68.0/22 -p tcp -m tcp --dport 22 -j REJECT --reject
 iptables -A INPUT -s 61.164.83.32/28 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
 iptables -A INPUT -s 46.17.100.0/22 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
 iptables -A INPUT -s 179.97.10.0/24 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 117.40.0.0/14 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 123.56.0.0/15 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 121.10.239.121/32 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 121.10.239.122/31 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 121.10.239.124/30 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 121.10.239.128/25 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
+iptables -A INPUT -s 208.90.216.0/21 -p tcp -m tcp --dport 22 -j REJECT --reject-with icmp-host-unreachable
